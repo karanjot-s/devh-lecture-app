@@ -10,6 +10,7 @@ const doubtSchema = new Schema(
     lecture: { type: String, required: true },
     course: { type: String, required: true },
     question: { type: String, required: true },
+    answers: { type: Array, default: [] },
   },
   {
     timestamps: true,

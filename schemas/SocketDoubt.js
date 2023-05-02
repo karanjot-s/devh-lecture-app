@@ -3,7 +3,8 @@ const { Schema } = mongoose;
 
 const doubtSchema = new Schema(
   {
-    socket: Schema.Types.Mixed,
+    userId: { type: String, required: true },
+    sessionId: { type: String, required: true },
     username: { type: String, required: true },
   },
   {
