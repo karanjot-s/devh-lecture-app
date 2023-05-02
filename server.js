@@ -10,7 +10,7 @@ const SocketDoubt = require("./schemas/SocketDoubt");
 // const Lecture = require("./schemas/Lecture");
 
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://jade-selkie-bc6ac8.netlify.app",
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
